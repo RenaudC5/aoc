@@ -1,0 +1,24 @@
+{
+  "name": "template",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-example-1": "npx tsx script.ts example.txt",
+    "start-example-2": "npx tsx script2.ts example.txt",
+    "start-1": "npx tsx script.ts input.txt",
+    "start-2": "npx tsx script2.ts input.txt"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "aocrunner": "^1.10.0"
+  }
+}
